@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph"
+            app:startDestination="@+id/appMain">
+
+    <fragment android:id="@+id/appMain" android:name="com.example.moneydexter3.AppMain"
+              android:label="fragment_app_main" tools:layout="@layout/fragment_app_main">
+
+        <action android:id="@+id/action_appMain_to_viewAllTransactions" app:destination="@id/viewAllTransactions"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+
+        <action android:id="@+id/action_appMain_to_addTransaction" app:destination="@id/addTransaction"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+
+        <action android:id="@+id/action_appMain_to_about" app:destination="@id/about"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+
+        <action android:id="@+id/action_appMain_to_settings" app:destination="@id/settings"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+
+    </fragment>
+    <fragment android:id="@+id/addTransaction" android:name="com.example.moneydexter3.AddTransaction"
+              android:label="fragment_add_transaction2" tools:layout="@layout/fragment_add_transaction2">
+
+        <action android:id="@+id/action_addTransaction_to_viewAllTransactions" app:destination="@id/viewAllTransactions"
+                app:popEnterAnim="@anim/slide_in_left"
+                app:popExitAnim="@anim/slide_out_right"
+                app:enterAnim="@anim/slide_in_right"
+                app:exitAnim="@anim/slide_out_left"/>
+    </fragment>
+    <fragment android:id="@+id/settings" android:name="com.example.moneydexter3.Settings"
+              android:label="fragment_settings" tools:layout="@layout/fragment_settings"/>
+    <fragment android:id="@+id/about" android:name="com.example.moneydexter3.About" android:label="fragment_about"
+              tools:layout="@layout/fragment_about"/>
+    <fragment android:id="@+id/viewAllTransactions" android:name="com.example.moneydexter3.ViewAllTransactions"
+              android:label="fragment_view_all_transactions" tools:layout="@layout/fragment_view_all_transactions">
+
+        <argument android:name="tname" app:argType="string" />
+        <argument android:name="tcost" app:argType="string" />
+    </fragment>
+</navigation>

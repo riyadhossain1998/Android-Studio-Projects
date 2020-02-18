@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "178165689578",
+    "firebase_url": "https://moneydexter3.firebaseio.com",
+    "project_id": "moneydexter3",
+    "storage_bucket": "moneydexter3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178165689578:android:253d0bb00f7179b99a3b93",
+        "android_client_info": {
+          "package_name": "com.example.moneydexter3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178165689578-snhj1hmm6du5n05adaah1so4cilmtv5o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moneydexter3",
+            "certificate_hash": "8313f8b9cdeaff4c1fd1a97721b140a743660073"
+          }
+        },
+        {
+          "client_id": "178165689578-0da4nlpphm1253620qtkc69efepttlrp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2fIUzkCQeZTsvLN_N_11ZNk3o7JKT3w8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178165689578-0da4nlpphm1253620qtkc69efepttlrp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
