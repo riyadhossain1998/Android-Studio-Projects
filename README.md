@@ -1,4 +1,4 @@
-# MoneyDexter - might actually help you get rid of your debts
+# MoneyDexter -a book-keeping app
 
 <p> This is a book keeping app that I have been working on for the past week, there's still a lot to implement and I am currently working
 on it while balancing school to make it functionable. The app was written in Kotlin using Android Studio.
